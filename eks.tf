@@ -46,5 +46,4 @@ resource "aws_vpc_security_group_ingress_rule" "sg-tf-in" {
   from_port         = 0
   ip_protocol       = "tcp"
   to_port           = 31005
-
 }
