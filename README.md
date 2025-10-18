@@ -13,4 +13,6 @@ Pre-requisites : terraform should be installed and aws cli be configured.
    -> go to backend dir and run terraform init terrafom plan and terraform apply.
 2. create VPC and EKS.
    -> go to root dir of project and run terraform init terrafom plan and terraform apply.
-3. can check 
+3. to check install kubectl on a machine
+   -> update kubeconfig aws *eks update-kubeconfig --region us-east-1 --name tf-eks-cluster*
+   -> run kubectl get nodes
